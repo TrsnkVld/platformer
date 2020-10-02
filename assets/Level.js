@@ -23,8 +23,12 @@ class Level extends Phaser.Scene {
 		this.clouds_4;
 		/** @type {Phaser.GameObjects.Sprite} */
 		this.person;
+		/** @type {Phaser.GameObjects.Sprite} */
+		this.coin;
 		/** @type {Array<Phaser.GameObjects.TileSprite|Phaser.GameObjects.Image>} */
 		this.platforms;
+		/** @type {Phaser.GameObjects.Sprite[]} */
+		this.coins;
 		
 		/* START-USER-CTR-CODE */
 
@@ -213,10 +217,16 @@ class Level extends Phaser.Scene {
 		volcano_Level_Set_Environment___Red_Flag_png.flipX = true;
 		
 		// person
-		const person = this.add.sprite(236, 533, "player", "idle-right_0.png");
+		const person = this.add.sprite(236, 593, "player", "idle-right_0.png");
+		
+		// coin
+		const coin = this.add.sprite(653, 239, "volcano", "Volcano Level Set_Collectable Object - Coin 01.png");
+		coin.scaleX = 0.4315907248475075;
+		coin.scaleY = 0.4315907248475075;
 		
 		// lists
 		const platforms = [platform, platform_start_1, platform_start, platform_start_1_1, platform_start_2, platform_start_3, platform_1, platform_start_1_2, image_1, platform_start_2_1, platform_start_1_1_1, image_3, image_3_1, platform_start_1_2_1, platform_1_1, platform_start_3_1, platform_start_1_2_2, platform_1_2, platform_start_3_2, platform_start_3_1_1, platform_start_1_2_1_1, image_1_1]
+		const coins = [coin, person]
 		
 		// platform (components)
 		const platformPhysics = new Physics(platform);
@@ -322,6 +332,9 @@ class Level extends Phaser.Scene {
 		personPhysics.offsetY = 15;
 		new Movement(person);
 		
+		// coin (components)
+		new Physics(coin);
+		
 		this.sky = sky;
 		this.rocks_1 = rocks_1;
 		this.clouds_1 = clouds_1;
@@ -330,7 +343,9 @@ class Level extends Phaser.Scene {
 		this.clouds_3 = clouds_3;
 		this.clouds_4 = clouds_4;
 		this.person = person;
+		this.coin = coin;
 		this.platforms = platforms;
+		this.coins = coins;
 	}
 	
 	/* START-USER-CODE */
@@ -344,7 +359,7 @@ class Level extends Phaser.Scene {
 
 		this.editorCreate();
 		//this.map = this.make.tilemap({key: 'Level'});
-		this.physics.add.collider(this.person, this.platforms);
+		this.physics.add.collider(this.coins, this.platforms);
 		this.physics.world.setBounds(0, 0, sceneWidth, height, true, true, true, true);
 
 		
@@ -374,6 +389,8 @@ class Level extends Phaser.Scene {
 	update() {
 
 		const camera = this.cameras.main;
+
+		this.coin.play('coin', true);
 
 
 	}

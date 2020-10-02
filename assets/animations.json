@@ -431,6 +431,46 @@
             ],
             "frameRate": 1,
             "skipMissedFrames": true
+        },
+        {
+            "key": "coin",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "volcano",
+                    "frame": "Volcano Level Set_Collectable Object - Coin 01.png",
+                    "duration": 0
+                },
+                {
+                    "key": "volcano",
+                    "frame": "Volcano Level Set_Collectable Object - Coin 02.png",
+                    "duration": 0
+                },
+                {
+                    "key": "volcano",
+                    "frame": "Volcano Level Set_Collectable Object - Coin 03.png",
+                    "duration": 0
+                },
+                {
+                    "key": "volcano",
+                    "frame": "Volcano Level Set_Collectable Object - Coin 04.png",
+                    "duration": 0
+                },
+                {
+                    "key": "volcano",
+                    "frame": "Volcano Level Set_Collectable Object - Coin 05.png",
+                    "duration": 0
+                },
+                {
+                    "key": "volcano",
+                    "frame": "Volcano Level Set_Collectable Object - Coin 06.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 14,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showOnStart": true
         }
     ],
     "globalTimeScale": 1,

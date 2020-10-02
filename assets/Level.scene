@@ -605,7 +605,24 @@
                 "frame": "idle-right_0.png"
             },
             "x": 236,
-            "y": 533
+            "y": 593
+        },
+        {
+            "type": "Sprite",
+            "id": "386e2481-50f8-4da4-b7f9-2815be002579",
+            "label": "coin",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
+            },
+            "x": 653,
+            "y": 239,
+            "scaleX": 0.4315907248475075,
+            "scaleY": 0.4315907248475075
         }
     ],
     "meta": {
@@ -640,6 +657,14 @@
                 "b76ff1f9-0c08-4d5a-86b4-d6bd076e76fe",
                 "d0838f69-75a3-47f8-99c8-96064d47f9d0",
                 "bb92f0d2-d371-4c28-970b-0e60850212e4"
+            ]
+        },
+        {
+            "id": "31ffa991-eac4-482f-b655-5159f63bac48",
+            "label": "coins",
+            "objectIds": [
+                "386e2481-50f8-4da4-b7f9-2815be002579",
+                "5f0d288f-7f7a-4d0d-95ed-37d4d8a164fc"
             ]
         }
     ]
