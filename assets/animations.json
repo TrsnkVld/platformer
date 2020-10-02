@@ -1,0 +1,441 @@
+{
+    "anims": [
+        {
+            "key": "person-run",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "person",
+                    "frame": "Run-0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-1.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-2.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-3.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-4.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-5.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-6.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-7.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "person-jump",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "person",
+                    "frame": "Jump-1.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Jump-0.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "person-idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "person",
+                    "frame": "Idle-0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-1.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-2.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-3.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-4.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-5.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-6.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-7.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "person-run-left",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "person",
+                    "frame": "Run-Left-0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-Left-1.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-Left-2.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-Left-3.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-Left-4.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-Left-5.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-Left-6.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Run-Left-7.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "person-fall",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "person",
+                    "frame": "Fall-0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Fall-1.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "person-idle-left",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "person",
+                    "frame": "Idle-Left-0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-Left-1.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-Left-2.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-Left-3.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-Left-4.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-Left-5.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-Left-6.png",
+                    "duration": 0
+                },
+                {
+                    "key": "person",
+                    "frame": "Idle-Left-7.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "player-idle-right",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "idle-right_0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "idle-right_1.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "idle-right_2.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "idle-right_3.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 4,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "player-idle-left",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "idle-left_0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "idle-left_1.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "idle-left_2.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "idle-left_3.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 4,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "player-run-right",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "run-right_5.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "run-right_0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "run-right_1.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "run-right_2.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "run-right_3.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "run-right_4.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "player-run-left",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "run-left_5.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "run-left_0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "run-left_1.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "run-left_2.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "run-left_3.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "run-left_4.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 10,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "player-jump-right",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "jump-right_0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "jump-right_1.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "jump-right_2.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 7,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "player-jump-left",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "jump-left_2.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "jump-left_0.png",
+                    "duration": 0
+                },
+                {
+                    "key": "player",
+                    "frame": "jump-left_1.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 7,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "player-slide-right",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "slide-right_0.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 1,
+            "skipMissedFrames": true
+        },
+        {
+            "key": "player-slide-left",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player",
+                    "frame": "slide-left_0.png",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 1,
+            "skipMissedFrames": true
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

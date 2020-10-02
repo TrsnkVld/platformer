@@ -1,0 +1,95 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/Level.js",
+                "type": "sceneFile",
+                "key": "Level"
+            },
+            {
+                "atlasURL": "assets/atlas/person.json",
+                "textureURL": "assets/atlas/person.png",
+                "type": "atlas",
+                "key": "person"
+            },
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "components/Movement.js",
+                "type": "script",
+                "key": "Movement"
+            },
+            {
+                "url": "components/Physics.js",
+                "type": "script",
+                "key": "Physics"
+            },
+            {
+                "url": "assets/pixel-art-nature-mountains-pines-tree-background-game-8-bit_210544-13.jpg",
+                "type": "image",
+                "key": "pixel-art-nature-mountains-pines-tree-background-game-8-bit_210544-13"
+            },
+            {
+                "atlasURL": "assets/atlas/player.json",
+                "textureURL": "assets/atlas/player.png",
+                "type": "atlas",
+                "key": "player"
+            },
+            {
+                "url": "assets/game_background_1.png",
+                "type": "image",
+                "key": "game_background_1"
+            },
+            {
+                "atlasURL": "assets/atlas/volcano.json",
+                "textureURL": "assets/atlas/volcano.png",
+                "type": "atlas",
+                "key": "volcano"
+            },
+            {
+                "url": "assets/clouds_1.png",
+                "type": "image",
+                "key": "clouds_1"
+            },
+            {
+                "url": "assets/clouds_2.png",
+                "type": "image",
+                "key": "clouds_2"
+            },
+            {
+                "url": "assets/clouds_3.png",
+                "type": "image",
+                "key": "clouds_3"
+            },
+            {
+                "url": "assets/clouds_4.png",
+                "type": "image",
+                "key": "clouds_4"
+            },
+            {
+                "url": "assets/rocks_1.png",
+                "type": "image",
+                "key": "rocks_1"
+            },
+            {
+                "url": "assets/rocks_2.png",
+                "type": "image",
+                "key": "rocks_2"
+            },
+            {
+                "url": "assets/sky.png",
+                "type": "image",
+                "key": "sky"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2
+    }
+}

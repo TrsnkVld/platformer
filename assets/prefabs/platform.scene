@@ -1,0 +1,63 @@
+{
+    "id": "f6d96be3-dcbb-4d22-b29e-0bfc4c44a351",
+    "settings": {
+        "createMethodName": "",
+        "preloadMethodName": "",
+        "compilerOutputLanguage": "JAVA_SCRIPT",
+        "compilerInsertSpaces": false,
+        "compilerTabSize": 4,
+        "borderWidth": 1252,
+        "borderHeight": 750,
+        "borderX": 0,
+        "borderY": 0
+    },
+    "sceneType": "PREFAB",
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "79706014-ca18-4dee-b6c7-3d1f0d9de237",
+            "label": "container_1",
+            "components": [],
+            "x": 0,
+            "y": 0,
+            "list": [
+                {
+                    "prefabId": "ebe9476c-722d-4656-9939-4400a618c226",
+                    "id": "ffbf76d9-9201-4f7f-bdc9-c07f339ce6ba",
+                    "label": "platform_1_1",
+                    "components": [
+                        "Physics"
+                    ],
+                    "Physics.isStatic": true,
+                    "x": 65,
+                    "y": 0.00531005859375
+                },
+                {
+                    "prefabId": "4489bfb3-a8e6-48d5-bd72-b1dad721d11b",
+                    "id": "4148b77a-eb8c-44f0-ba42-cd15a4b4abf7",
+                    "label": "platform-start_3_1",
+                    "components": [
+                        "Physics"
+                    ],
+                    "Physics.isStatic": true,
+                    "y": 0.00531005859375
+                },
+                {
+                    "prefabId": "6fc05b3e-1834-48ef-9712-41e0c2d031b1",
+                    "id": "00b1e76c-e570-42b0-a8ec-926a2af15b09",
+                    "label": "platform-start_3_1_1",
+                    "components": [
+                        "Physics"
+                    ],
+                    "Physics.isStatic": true,
+                    "x": 130.38377380371094
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

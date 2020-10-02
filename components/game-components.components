@@ -1,0 +1,73 @@
+{
+    "components": [
+        {
+            "name": "Movement",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": []
+        },
+        {
+            "name": "Physics",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": [
+                {
+                    "name": "isStatic",
+                    "label": "isStatic",
+                    "tooltip": "isStatic",
+                    "defValue": false,
+                    "type": {
+                        "id": "boolean"
+                    }
+                },
+                {
+                    "name": "width",
+                    "label": "Width",
+                    "tooltip": "Width",
+                    "defValue": 90,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "height",
+                    "label": "Height",
+                    "tooltip": "Height",
+                    "defValue": 150,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "offsetX",
+                    "label": "OffsetX",
+                    "tooltip": "OffsetX",
+                    "defValue": 0,
+                    "type": {
+                        "id": "number"
+                    }
+                },
+                {
+                    "name": "offsetY",
+                    "label": "OffsetY",
+                    "tooltip": "OffsetY",
+                    "defValue": 0,
+                    "type": {
+                        "id": "number"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PlatformPhysics",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

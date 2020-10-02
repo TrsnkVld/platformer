@@ -1,0 +1,40 @@
+{
+    "id": "6fc05b3e-1834-48ef-9712-41e0c2d031b1",
+    "settings": {
+        "createMethodName": "",
+        "preloadMethodName": "",
+        "compilerOutputLanguage": "JAVA_SCRIPT",
+        "compilerInsertSpaces": false,
+        "compilerTabSize": 4,
+        "borderWidth": 1252,
+        "borderHeight": 750,
+        "borderX": 0,
+        "borderY": 0
+    },
+    "sceneType": "PREFAB",
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "1083db79-f32f-42b2-8471-480517eb40a2",
+            "label": "platform-start_3_1_1",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Ground 10.png"
+            },
+            "x": 0,
+            "y": 0,
+            "scaleX": 0.5286129472082527,
+            "scaleY": 0.5286129472082527,
+            "flipX": true
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}
