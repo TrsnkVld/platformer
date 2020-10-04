@@ -83,6 +83,34 @@
                 "url": "assets/sky.png",
                 "type": "image",
                 "key": "sky"
+            },
+            {
+                "url": [
+                    "assets/audio/coin-collect.wav"
+                ],
+                "type": "audio",
+                "key": "coin-collect"
+            },
+            {
+                "url": [
+                    "assets/audio/running.mp3"
+                ],
+                "type": "audio",
+                "key": "running"
+            },
+            {
+                "url": [
+                    "assets/audio/treasure.wav"
+                ],
+                "type": "audio",
+                "key": "treasure"
+            },
+            {
+                "url": [
+                    "assets/audio/win.wav"
+                ],
+                "type": "audio",
+                "key": "win"
             }
         ]
     },

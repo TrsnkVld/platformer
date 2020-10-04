@@ -4,6 +4,7 @@
     "settings": {
         "snapWidth": 90,
         "snapHeight": 123,
+        "preloadMethodName": "editorPreload",
         "preloadPackFiles": [],
         "createMethodName": "editorCreate",
         "sceneKey": "Level",
@@ -360,7 +361,7 @@
                 "key": "volcano",
                 "frame": "Volcano Level Set_Platformer - Ground 09.png"
             },
-            "x": 1245,
+            "x": 1244,
             "y": 592,
             "flipX": true,
             "width": 90,
@@ -378,7 +379,7 @@
                 "key": "volcano",
                 "frame": "Volcano Level Set_Platformer - Ground 04.png"
             },
-            "x": 1262.2397560234858,
+            "x": 1261.2397560234858,
             "y": 410.85034192755984,
             "flipX": true
         },
@@ -558,10 +559,14 @@
             "height": 24
         },
         {
-            "type": "Image",
+            "type": "Sprite",
             "id": "72346a6d-4bda-4b82-89fa-685be02cf1fc",
-            "label": "volcano_Level_Set_Collectable_Object___Locked_Golden_Treasure_Box_png",
-            "components": [],
+            "label": "treasure",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
             "texture": {
                 "key": "volcano",
                 "frame": "Volcano Level Set_Collectable Object - Locked Golden Treasure Box.png"
@@ -582,30 +587,10 @@
                 "frame": "Volcano Level Set_Environment - Red Flag.png"
             },
             "x": 694,
-            "y": 580,
+            "y": 581,
             "scaleX": 0.8048538887351329,
             "scaleY": 0.8048538887351329,
             "flipX": true
-        },
-        {
-            "type": "Sprite",
-            "id": "5f0d288f-7f7a-4d0d-95ed-37d4d8a164fc",
-            "label": "person",
-            "scope": "CLASS",
-            "components": [
-                "Physics",
-                "Movement"
-            ],
-            "Physics.width": 50,
-            "Physics.height": 110,
-            "Physics.offsetX": 25,
-            "Physics.offsetY": 15,
-            "texture": {
-                "key": "player",
-                "frame": "idle-right_0.png"
-            },
-            "x": 236,
-            "y": 593
         },
         {
             "type": "Sprite",
@@ -619,8 +604,364 @@
                 "key": "volcano",
                 "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
             },
-            "x": 653,
-            "y": 239,
+            "x": 630,
+            "y": 238,
+            "scaleX": 0.4315907248475075,
+            "scaleY": 0.4315907248475075
+        },
+        {
+            "type": "Sprite",
+            "id": "e80e1bd7-6e74-4aee-8640-fe4521fc0054",
+            "label": "coin_1",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
+            },
+            "x": 810,
+            "y": 125,
+            "scaleX": 0.4315907248475075,
+            "scaleY": 0.4315907248475075
+        },
+        {
+            "type": "Sprite",
+            "id": "6a27ec99-001b-4dc8-bd35-910ef9c8a3b8",
+            "label": "coin_2",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
+            },
+            "x": 990,
+            "y": 123,
+            "scaleX": 0.4315907248475075,
+            "scaleY": 0.4315907248475075
+        },
+        {
+            "type": "Sprite",
+            "id": "3ddff09b-2899-4d37-9b8e-da73c11944c9",
+            "label": "coin_3",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
+            },
+            "x": 1170,
+            "scaleX": 0.4315907248475075,
+            "scaleY": 0.4315907248475075
+        },
+        {
+            "type": "Text",
+            "id": "7680060d-cb6c-4b89-a192-d9d9055d86c9",
+            "label": "score",
+            "scope": "CLASS",
+            "components": [],
+            "originX": 0,
+            "originY": 0,
+            "text": "Score:",
+            "paddingLeft": 50,
+            "paddingTop": 50,
+            "paddingRight": 50,
+            "paddingBottom": 50,
+            "fontSize": "35px",
+            "fontStyle": "bold",
+            "color": "#000",
+            "stroke": "#000",
+            "shadow.offsetX": 2,
+            "shadow.offsetY": 2,
+            "shadow.stroke": true,
+            "shadow.blur": 4
+        },
+        {
+            "type": "TileSprite",
+            "id": "914b7492-91da-4858-a553-d7e06b1c8a41",
+            "label": "platform_2",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Ground 11.png"
+            },
+            "x": 1729,
+            "y": 612,
+            "scaleX": 0.5291556075952513,
+            "scaleY": 0.5291556075952513,
+            "width": 500,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "fe2270d4-ffbb-4b95-8ce4-430b5fb93486",
+            "label": "platform-start_1_3",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Ground 10.png"
+            },
+            "x": 1893,
+            "y": 612,
+            "scaleX": 0.5301479966247101,
+            "scaleY": 0.5301479966247101,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "a52cacd6-6bfb-4107-8f35-6087d6ff1b9e",
+            "label": "platform-start_4",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Ground 10.png"
+            },
+            "x": 1564,
+            "y": 612,
+            "scaleX": 0.5286129472082527,
+            "scaleY": 0.5286129472082527
+        },
+        {
+            "type": "TileSprite",
+            "id": "acc76bbb-c4c9-48fb-94ab-50fd713808c9",
+            "label": "platform_3",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Ground 11.png"
+            },
+            "x": 2140.092188370787,
+            "y": 526.2279821567397,
+            "scaleX": 0.5291556075952513,
+            "scaleY": 0.5291556075952513,
+            "width": 165,
+            "height": 128
+        },
+        {
+            "type": "Image",
+            "id": "6eda07d4-ff01-4e63-a4e5-d5fa61eb877a",
+            "label": "platform-start_1_4",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Ground 10.png"
+            },
+            "x": 2217.61297084149,
+            "y": 526.6626745395522,
+            "scaleX": 0.5301479966247101,
+            "scaleY": 0.5301479966247101,
+            "flipX": true
+        },
+        {
+            "type": "Image",
+            "id": "d12c6583-c9db-419a-be0d-4f67cd924fa1",
+            "label": "platform-start_5",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Ground 10.png"
+            },
+            "x": 2063.092188370787,
+            "y": 526.2279821567397,
+            "scaleX": 0.5286129472082527,
+            "scaleY": 0.5286129472082527
+        },
+        {
+            "type": "Image",
+            "id": "6b96134c-c4e7-4b66-bfac-5da09e73f9a5",
+            "label": "platform-start_5_1",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Ground 10.png"
+            },
+            "x": 1602.0734286655816,
+            "y": 448.1953365869208,
+            "scaleX": 0.5286129472082527,
+            "scaleY": 0.5286129472082527
+        },
+        {
+            "type": "Image",
+            "id": "117bac85-ce59-4c67-bdb8-bc4a5a04ff4d",
+            "label": "platform-start_1_4_1",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Ground 10.png"
+            },
+            "x": 1756.5941806187066,
+            "y": 448.6300289697333,
+            "scaleX": 0.5301479966247101,
+            "scaleY": 0.5301479966247101,
+            "flipX": true
+        },
+        {
+            "type": "TileSprite",
+            "id": "c76f08c9-4988-434b-8527-cceca3457a98",
+            "label": "platform_3_1",
+            "components": [
+                "Physics"
+            ],
+            "Physics.isStatic": true,
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Platformer - Ground 11.png"
+            },
+            "x": 1679.0734286655816,
+            "y": 448.1953365869208,
+            "scaleX": 0.5291556075952513,
+            "scaleY": 0.5291556075952513,
+            "width": 165,
+            "height": 128
+        },
+        {
+            "type": "Sprite",
+            "id": "f9540bff-bc83-496c-98cc-b42e1f32d8b3",
+            "label": "coin_2_1",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
+            },
+            "x": 1620,
+            "y": 246,
+            "scaleX": 0.4315907248475075,
+            "scaleY": 0.4315907248475075
+        },
+        {
+            "type": "Sprite",
+            "id": "a5ce7041-7efc-4308-b0f7-afc132a80381",
+            "label": "coin_2_1_1",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
+            },
+            "x": 1800,
+            "y": 492,
+            "scaleX": 0.4315907248475075,
+            "scaleY": 0.4315907248475075
+        },
+        {
+            "type": "Sprite",
+            "id": "43f2fb6a-1742-4b72-950e-042b99281904",
+            "label": "coin_2_1_1_1",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
+            },
+            "x": 2160,
+            "y": 123,
+            "scaleX": 0.4315907248475075,
+            "scaleY": 0.4315907248475075
+        },
+        {
+            "type": "Sprite",
+            "id": "9309341b-f2b1-44b9-8ba8-78f34a7f2c8f",
+            "label": "coin_2_1_1_1_1",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
+            },
+            "x": 1080,
+            "y": 492,
+            "scaleX": 0.4315907248475075,
+            "scaleY": 0.4315907248475075
+        },
+        {
+            "type": "Sprite",
+            "id": "bdfa67e1-2d49-4a40-93bd-347589678bce",
+            "label": "coin_2_1_1_1_1_1_1",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
+            },
+            "x": 900,
+            "y": 492,
+            "scaleX": 0.4315907248475075,
+            "scaleY": 0.4315907248475075
+        },
+        {
+            "type": "Sprite",
+            "id": "5f0d288f-7f7a-4d0d-95ed-37d4d8a164fc",
+            "label": "person",
+            "scope": "CLASS",
+            "components": [
+                "Movement",
+                "Physics"
+            ],
+            "Physics.width": 50,
+            "Physics.height": 110,
+            "Physics.offsetX": 25,
+            "Physics.offsetY": 15,
+            "texture": {
+                "key": "player",
+                "frame": "idle-right_0.png"
+            },
+            "x": 194,
+            "y": 576
+        },
+        {
+            "type": "Sprite",
+            "id": "b1708223-c722-4c32-9ac0-c5ac054da6c9",
+            "label": "coin_2_1_1_1_1_1",
+            "scope": "CLASS",
+            "components": [
+                "Physics"
+            ],
+            "texture": {
+                "key": "volcano",
+                "frame": "Volcano Level Set_Collectable Object - Coin 01.png"
+            },
+            "x": 1350,
+            "y": 492,
             "scaleX": 0.4315907248475075,
             "scaleY": 0.4315907248475075
         }
@@ -656,7 +997,16 @@
                 "70e32ac5-133e-464f-96d9-99a35b09b6af",
                 "b76ff1f9-0c08-4d5a-86b4-d6bd076e76fe",
                 "d0838f69-75a3-47f8-99c8-96064d47f9d0",
-                "bb92f0d2-d371-4c28-970b-0e60850212e4"
+                "bb92f0d2-d371-4c28-970b-0e60850212e4",
+                "6b96134c-c4e7-4b66-bfac-5da09e73f9a5",
+                "c76f08c9-4988-434b-8527-cceca3457a98",
+                "117bac85-ce59-4c67-bdb8-bc4a5a04ff4d",
+                "914b7492-91da-4858-a553-d7e06b1c8a41",
+                "a52cacd6-6bfb-4107-8f35-6087d6ff1b9e",
+                "fe2270d4-ffbb-4b95-8ce4-430b5fb93486",
+                "d12c6583-c9db-419a-be0d-4f67cd924fa1",
+                "acc76bbb-c4c9-48fb-94ab-50fd713808c9",
+                "6eda07d4-ff01-4e63-a4e5-d5fa61eb877a"
             ]
         },
         {
@@ -664,7 +1014,22 @@
             "label": "coins",
             "objectIds": [
                 "386e2481-50f8-4da4-b7f9-2815be002579",
-                "5f0d288f-7f7a-4d0d-95ed-37d4d8a164fc"
+                "3ddff09b-2899-4d37-9b8e-da73c11944c9",
+                "6a27ec99-001b-4dc8-bd35-910ef9c8a3b8",
+                "e80e1bd7-6e74-4aee-8640-fe4521fc0054",
+                "bdfa67e1-2d49-4a40-93bd-347589678bce",
+                "9309341b-f2b1-44b9-8ba8-78f34a7f2c8f",
+                "a5ce7041-7efc-4308-b0f7-afc132a80381",
+                "f9540bff-bc83-496c-98cc-b42e1f32d8b3",
+                "43f2fb6a-1742-4b72-950e-042b99281904",
+                "b1708223-c722-4c32-9ac0-c5ac054da6c9"
+            ]
+        },
+        {
+            "id": "442d0d0f-8f35-4df5-bb11-d2660cfc3385",
+            "label": "treasures",
+            "objectIds": [
+                "72346a6d-4bda-4b82-89fa-685be02cf1fc"
             ]
         }
     ]

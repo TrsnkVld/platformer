@@ -14,7 +14,7 @@ window.addEventListener('load', function () {
 			default: 'arcade',
 			fps: 60,
 			arcade: {
-				gravity: { y: 27000 },//35000
+				gravity: { y: 800 },//35000
 				debug: false,
 			}
 		}
@@ -29,6 +29,10 @@ class Boot extends Phaser.Scene {
 	preload() {
 
 		this.load.pack("pack", "assets/asset-pack.json");
+
+		this.load.audio('collect', 'assets/audio/coin-collect.wav');
+		this.load.audio('treasure', 'assets/audio/treasure.wav', );
+		this.load.audio('win', 'assets/audio/win.wav', );
 	}
 
 	create() {
